@@ -79,10 +79,14 @@ header p {
 
 .intro{
     margin-top: 134px;
-    min-height: 100%;
 }
 
 .tabs .tab a:focus, .tabs .tab a:focus.active {
     background-color: rgba(255, 255, 255, 0.2);
     outline: none;
+}
+
+.intro p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
 }
