@@ -84,3 +84,6 @@ header p{
   }
 
   /* wnw */
+.tabs .indicator{
+    background-color: greenyellow;
+}
