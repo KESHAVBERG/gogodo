@@ -1,11 +1,9 @@
-header{
+header {
     min-height: 300px;
     background-color: rgb(77, 202, 77);
     align-items: center;
     justify-content: center;
-
 }
-
 
 header h1 span {
     position: relative;
@@ -14,16 +12,7 @@ header h1 span {
     animation: bounce .3s ease infinite alternate;
     font-family: 'Titan One'cursive;
     font-size: 80px;
-    text-shadow: 0 1px 0 green,
-        0 2px 0 green,
-        0 3px 0 green,
-        0 4px 0 green,
-        0 5px 0 green,
-        0 6px 0 transparent,
-        0 7px 0 transparent,
-        0 8px 0 transparent,
-        0 9px 0 transparent,
-        0 10px 10px rgba(0, 0, 0, 0.4);
+    text-shadow: 0 1px 0 green, 0 2px 0 green, 0 3px 0 green, 0 4px 0 green, 0 5px 0 green, 0 6px 0 transparent, 0 7px 0 transparent, 0 8px 0 transparent, 0 9px 0 transparent, 0 10px 10px rgba(0, 0, 0, 0.4);
 }
 
 h1 span:nth-child(2) {
@@ -60,30 +49,40 @@ h1 span:nth-child(8) {
     }
 }
 
-header p{
+header p {
     margin-top: 40px;
     font-size: 20px;
 }
 
 @media screen and (max-width: 358px) {
-    
-    header h1 span{
+    header h1 span {
         font-size: 60px;
     }
-  }
+}
 
-  @media screen and (max-width: 358px) {
-    
-
-    header h1 span{
+@media screen and (max-width: 358px) {
+    header h1 span {
         font-size: 40px;
     }
-    header p{
+    header p {
         font-size: 15px
-    };
-  }
-
-  /* wnw */
-.tabs .indicator{
+    }
+    ;
+}
+                    /* wnw */
+                    
+.tabs .indicator {
     background-color: greenyellow;
+}
+
+/* intro */
+
+.intro{
+    margin-top: 134px;
+    min-height: 100%;
+}
+
+.tabs .tab a:focus, .tabs .tab a:focus.active {
+    background-color: rgba(255, 255, 255, 0.2);
+    outline: none;
 }
