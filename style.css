@@ -1,11 +1,15 @@
 header{
-    min-height: 400px;
+    min-height: 300px;
+    background-color: rgb(77, 202, 77);
+    align-items: center;
+    justify-content: center;
+
 }
 
 
 header h1 span {
     position: relative;
-    top: 20px;
+    /* top: 20px; */
     display: inline-block;
     animation: bounce .3s ease infinite alternate;
     font-family: 'Titan One'cursive;
@@ -60,3 +64,21 @@ header p{
     margin-top: 40px;
     font-size: 20px;
 }
+
+@media screen and (max-width: 358px) {
+    
+    header h1 span{
+        font-size: 60px;
+    }
+  }
+
+  @media screen and (max-width: 358px) {
+    
+
+    header h1 span{
+        font-size: 40px;
+    }
+    header p{
+        font-size: 15px
+    };
+  }
