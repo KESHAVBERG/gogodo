@@ -9,7 +9,7 @@ header h1 span {
     position: relative;
     /* top: 20px; */
     display: inline-block;
-    animation: bounce .3s ease infinite alternate;
+    /* animation: bounce .3s ease infinite alternate; */
     font-family: 'Titan One'cursive;
     font-size: 80px;
     text-shadow: 0 1px 0 green, 0 2px 0 green, 0 3px 0 green, 0 4px 0 green, 0 5px 0 green, 0 6px 0 transparent, 0 7px 0 transparent, 0 8px 0 transparent, 0 9px 0 transparent, 0 10px 10px rgba(0, 0, 0, 0.4);
@@ -43,11 +43,11 @@ h1 span:nth-child(8) {
     animation-delay: .7s;
 }
 
-@keyframes bounce {
+/* @keyframes bounce {
     100% {
         top: -10px;
     }
-}
+} */
 
 header p {
     margin-top: 40px;
